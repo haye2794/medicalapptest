@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical app</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Top Header: Header nằm ngang trên cùng -->
+    <header class="top-header">
+        <button class="toggler">
+            <i class="fa-solid fa-bars-staggered"></i> <!-- Icon cho button -->
+        </button>
+        <div class="header-header">
+            <h1 class="header-header-text">Dashboard</h1>
+        </div>
+        <button class="login">
+            <i class="fa-solid fa-lock"></i>
+            <span class="link-text">login</span> <!-- Icon cho button -->
+        </button>
+
+    </header>
+    
+    <!-- Main Content -->
+    <main class="main-wrap">
+        
+        <header class="main-head">
+            <div class="main-nav">
+                <nav class="navbar">
+                    <div class="navbar-nav">
+                        <div class="title">
+                            <h3>
+                                <i class="fa-solid fa-hospital-symbol"></i>
+                                <span class="title-text">Medical</span>
+                            </h3>
+                        </div>
+                        <div class="search-container">
+                            <button class="search-icon" onclick="toggleSearch()">
+                                <i class="fa-solid fa-search"></i>
+                            </button>
+                            <input type="text" class="search-bar" placeholder="Search..." />
+                        </div>
+                        <ul class="nav-list">
+                            <li class="nav-list-item">
+                                <a href="#" class="nav-link">
+                                    <i class="fa-solid fa-bars-progress"></i>
+                                    <span class="link-text">Progress</span>
+                                </a>
+                            </li>
+                            <li class="nav-list-item">
+                                <a href="#" class="nav-link">
+                                    <i class="fa-solid fa-skull"></i>
+                                    <span class="link-text">Xray</span>
+                                </a>
+                            </li>
+                            <li class="nav-list-item">
+                                <a href="#" class="nav-link">
+                                    <i class="fa-solid fa-question"></i>
+                                    <span class="link-text">Question</span>
+                                </a>
+                            </li>
+                            <li class="nav-list-item">
+                                <a href="#" class="nav-link">
+                                    <i class="fa-solid fa-comment"></i>
+                                    <span class="link-text">Conversation</span>
+                                </a>
+                            </li>
+                            <li class="nav-list-item">
+                                <a href="#" class="nav-link">
+                                    <i class="fa-solid fa-comment"></i>
+                                    <span class="link-text">Conversation</span>
+                                </a>
+                            </li>                           
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section class="showcase">
+            <div class="overlay">                
+                <div class="content">
+                    <div class="img">
+                        <img src="./img/w-prothemes-logo.png" alt="">
+                    </div>
+                    <div class="welcome">
+                        <div class="content-text">
+                            <h3>ur mom</h3>
+                            <p>Yo mama's so fat, when she skips a meal, the stock market drops.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
