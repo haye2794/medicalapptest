@@ -1,0 +1,15 @@
+/* Kiểu dáng cho phần chứa video */
+.showcase .video-container {
+    align-items: center;
+    margin: 20px auto;
+    width: 600px;
+    height: 600px;
+    margin-top: 20px;
+}
+
+.showcase .video-container .video {
+    width: 100%;  /* Đảm bảo video có chiều rộng 100% của phần chứa */
+    height: 100%;  /* Chỉnh chiều cao video theo ý muốn */
+    object-fit: cover;  /* Đảm bảo video có tỷ lệ khung hình chuẩn */
+    border-radius: 5px;  /* Làm bo góc video */
+}
