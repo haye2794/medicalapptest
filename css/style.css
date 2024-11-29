@@ -12,7 +12,7 @@ a{
     justify-content: space-between;
 }
 .main-head{
-    width: 60px;
+    width: 40px;
     height: 100vh;
     overflow: hidden;
     background: #0a1128;
@@ -28,7 +28,7 @@ a{
     width: 100%;
 }
 .main-head .main-nav .navbar .navbar-nav .title{
-    padding: 15px 19px;
+    padding: 5px 9px;
     border-bottom: 1px solid #2f3e46;
     transition: .1s ease-in-out;
 }
@@ -58,7 +58,7 @@ a{
 }
 .main-head .main-nav .navbar .navbar-nav .nav-list .nav-list-item{
     list-style: none;
-    padding: 15px 10px;
+    padding: 10px 1px;
     transition: .2s ease-in-out;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -97,15 +97,15 @@ a{
 .showcase{
     width: 100%;
     height: 100vh;
-    /*background: #6495ED;*/
-    background: url('../img/digital-art-physician-s-stethoscope-0cinufee6bu972uo.jpg') no-repeat;
+    background: #6495ED;
+    /*background: url('../img/digital-art-physician-s-stethoscope-0cinufee6bu972uo.jpg') no-repeat;*/
     background-position: center;
     background-size: cover;
     position: relative;
     transition: .3s ease-in-out;
 }
 .showcase.width{
-    width: 80%;
+    width: 100%;
 }
 .showcase .overlay{
     width: 100%;
@@ -138,7 +138,7 @@ a{
 .showcase .content{
     width: 100%;
     text-align: center;
-    padding: 80px 250px;
+    padding: 50px 250px;
 }
 
 .showcase .content h3{
@@ -171,7 +171,7 @@ a{
 .top-header {
     width: 100%;
     background-color: #0a1128; /* Màu nền giống sidebar */
-    padding: 10px 10px;
+    padding: 10px 1px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -180,7 +180,7 @@ a{
     top: 0;
     left: 0;
     z-index: 1000;
-    height: fit-content;
+    height: 40px;
 }
 
 .top-header .toggler {
@@ -209,7 +209,7 @@ a{
 }
 
 .main-wrap {
-    margin-top: 60px; /* Dịch xuống để tránh bị che bởi header */
+    margin-top: 40px; /* Dịch xuống để tránh bị che bởi header */
     display: flex;
     justify-content: space-between;
 }
@@ -249,7 +249,7 @@ a{
     background: transparent;
     border: none;
     cursor: pointer;
-    padding: 10px;
+    padding: 1px;
     transition: 0.2s ease;
 }
 
